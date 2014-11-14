@@ -1,4 +1,4 @@
-﻿using ConsoleApp1;
+﻿using Glimpse;
 using System;
 
 namespace SubMainDependency

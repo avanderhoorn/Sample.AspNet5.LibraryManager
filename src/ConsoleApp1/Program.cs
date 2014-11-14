@@ -1,7 +1,6 @@
 ﻿using Microsoft.Framework.Runtime;
 using System;
-using System.Linq;
-using System.Reflection;
+using Glimpse;
 
 namespace ConsoleApp1
 {
@@ -16,10 +15,8 @@ namespace ConsoleApp1
 
         public void Main(string[] args) 
         {
-            var libraries = _manager.GetReferencingLibraries("ConsoleApp1");
-            var assemblyNames = libraries.SelectMany(l => l.LoadableAssemblies);
-            var assemblies = assemblyNames.Select(x => Assembly.Load(x)); 
-            var types = assemblies.SelectMany(a => a.DefinedTypes);
+            var manager = new Manager();
+            manager.Setup(_manager);
 
 
             Console.WriteLine("Hello World");

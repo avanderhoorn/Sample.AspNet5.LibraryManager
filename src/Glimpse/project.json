@@ -1,7 +1,8 @@
 ﻿{
     "version": "1.0.0-*",
     "dependencies": {
-        "Glimpse": ""
+        "Microsoft.Composition": "1.0.27",
+        "Microsoft.Framework.Runtime.Interfaces": "1.0.0-*"
     },
 
     "frameworks" : {
@@ -11,6 +12,7 @@
         },
         "aspnetcore50" : { 
             "dependencies": {
+                "System.Linq": "4.0.0-beta-22231",
                 "System.Runtime": "4.0.20-beta-22231"
             }
         }
