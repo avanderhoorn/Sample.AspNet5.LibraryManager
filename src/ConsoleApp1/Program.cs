@@ -19,9 +19,6 @@ namespace ConsoleApp1
 
             PrintResults("Glimpse");
 
-            // Question: Why does this only return ConsoleApp1 and not SubMainDependency as well
-            PrintResults("MainDependency");
-             
             Console.ReadLine();
         }
 

@@ -2,7 +2,7 @@
     "version": "1.0.0-*",
     "dependencies": {
         "Glimpse": "",
-        "MainDependency": "",
+        "SubMainDependency": "",
         "OtherDependency": "",
         "Microsoft.Framework.Runtime.Interfaces": "1.0.0-*"
     },
